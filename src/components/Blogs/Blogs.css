@@ -1,0 +1,41 @@
+.mainBlogDiv{
+    margin: 2% 7% 5% 7%;
+
+
+}
+.blogImg{
+    height: 10vh;
+    width:10vh;
+}
+.blogMap{
+    background-color: white;
+    height: auto;
+    border-radius: 5px;
+    margin: 2%;
+    padding:2%;
+    box-shadow: 1px 2px 9px -1px black;
+    
+}
+.blogHeading{
+    display: flex;
+}
+.confirmDelDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    min-width: 40vh;
+    min-height: 20vh;
+    background-color: white;
+
+}
+.showDiv{
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    z-index: 999;
+}
+.hideDiv{
+    display: none;
+}
